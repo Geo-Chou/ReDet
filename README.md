@@ -1,3 +1,13 @@
+### update some useful code in DOTA_Devkit and tools folder
+- Script inference.py in DOTA_Devkit to inference just refer from labelTxt
+- dataset_json.py in tools can generate json without labeltxt, Just For Inference(test/val)
+
+### fix a bug when I use this repo
+- When I load different/same model in a script more than one time, the inference will have errors, fix it in mmdet folder.
+
+
+Following Discription is forked from raw repo
+---
 ### ReDet: A Rotation-equivariant Detector for Aerial Object Detection
 
 ![](docs/imgs/network.png)
